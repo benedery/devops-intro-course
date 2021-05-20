@@ -123,4 +123,4 @@ Make sure this job saves the meta/author.txt file as an artifact.
 
 4. run and test your pipeline.
 
-5. something went Wrong? find out why. it is possible you need to change your image to an image that support curl command?
+5. something went Wrong? find out why. it is possible you need to change your image to an image that supports curl command?

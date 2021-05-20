@@ -23,3 +23,18 @@
 find out why build is failing - fix it & get build to pass.  
  bonus:  
 add more arithmetic operation's and tests
+
+### Exercise 5
+
+- Lets' create new travis job/project - create new Repo in github.
+
+- add .travis.yml file.
+
+- we need to use docker for this exercise, make sure to read this instructions https://docs.travis-ci.com/user/docker/#using-a-docker-image-from-a-repository-in-a-build.
+
+- follow the steps in the link provided and see what happens in logs.
+  did all tests passed?
+
+- Bonus: Create new Repo with your own docker project. make sure the build runs an passed.
+
+- Add notifications to notify your when build is passed & failing.
