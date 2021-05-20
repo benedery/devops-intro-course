@@ -38,3 +38,5 @@ add more arithmetic operation's and tests
 - Bonus: Create new Repo with your own docker project. make sure the build runs an passed.
 
 - Add notifications to notify your when build is passed & failing.
+
+- Send your Repo in slack.

@@ -124,3 +124,51 @@ Make sure this job saves the meta/author.txt file as an artifact.
 4. run and test your pipeline.
 
 5. something went Wrong? find out why. it is possible you need to change your image to an image that supports curl command?
+
+### Exercise 6
+
+1. Add cache to your pipeline - use ${COMMIT_REF_SLUG} as key.
+
+2. Not every job in our pipeline need the dependencies (no need for cache) - find a way disable cache inside jobs that does not need it.
+
+3. Check the time of pipeline - did you see big difference ?
+
+4. The default cache behavior in Gitlab CI is to download the files at the start of the job execution (pull), and to re-upload them at the end (push). This allows any changes made by the job to be persisted for future runs (known as the pull-push cache policy).  
+   Gitlab offers the possibility of defining how a job should work with cache by setting a policy. So if we want to skip uploading cache file, we can use the setting in the cache configuration.
+
+5. In Gitlab CI it is possible to create jobs that are only executed when a specific condition is fulfilled. For example if we want to run a job only when the pipeline is triggered by a schedule, we can configure it with:
+   ```
+    only:
+   - schedules
+   ```
+
+The same goes the other way around. If you don't want to run a job when the pipeline is triggered by a scheduled run, simply add to the respective jobs:
+
+```
+except:
+    - schedules
+```
+
+6. Let's create a job that runs only once per day and updates the cache. The job will not need to download the caches (pull). It only needs to create new caches (push).
+
+For this do the following:
+
+- create a stage called "cache"
+
+- create a job called "update cache"
+
+- make sure the job does runs the command npm install (to install all dependencies)
+
+- add the following cache policy to the job: policy: push. Note that you will need to define the entire cache configuration (as you have done globally). You can not override only the policy.
+
+- make sure the "update cache" job only runs when the pipeline is triggered by a schedule
+
+- make sure that all other jobs DO NOT RUN when the pipeline is triggered by a schedule
+
+- create a new scheduled pipeline run and make it run once per day
+
+- manually run the scheduled pipeline and inspect the pipeline (only one job should be displayed)
+
+- manually the pipeline (the "update cache" job should not appear in the pipeline)
+
+- Send me in slack the yml file to check if you did all ok.
