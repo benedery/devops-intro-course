@@ -1,0 +1,15 @@
+some_key: &wash_ingredients take ingredients and wash them!
+hamburger_ingredients:
+ - 1 egg
+ - ½ teaspoon salt
+ - ½ teaspoon ground black pepper
+ - 1 pound ground beef
+ - ½ cup fine dry bread crumbs
+hamburger_steps:
+ - Preheat an outdoor grill for high heat and lightly oil grate.
+ - *wash_ingredients
+ - >
+  In a medium bowl, whisk together egg, salt and pepper.
+  Place ground beef and bread crumbs into the mixture.
+  With hands or a fork, mix until well blended. Form into 4 patties approximately 3/4 inch thick.
+ - Place patties on the prepared grill. Cover and cook 6 to 8 minutes per side, or to desired doneness.
