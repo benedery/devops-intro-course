@@ -1,0 +1,30 @@
+models:
+  - 'A1 Sportback':
+      price: 155,621
+      horsePower: 115
+      linkToModel: https://www.audi.co.il/models/a1/a1-sportback/
+
+  - 'A7 PHEV':
+      price: 530,000
+      horsePower: 367
+      linkToModel: https://www.audi.co.il/models/a7/a7-tfsi-e/
+
+  - 'Q5':
+      price: 363,719
+      horsePower: 265
+      linkToModel: https://www.audi.co.il/models/q5/q5/
+
+  - 'R8':
+      price: 1,532,719
+      horsePower: 540
+      linkToModel: https://www.audi.co.il/models/r8/r8/
+
+  - 'TT':
+      price: 308,419
+      horsePower: 197
+      linkToModel: https://www.audi.co.il/models/tt/tt/
+
+  - e-tron:
+      price: 525,730
+      horsePower: 361
+      linkToModel: https://www.audi.co.il/models/e-tron/audi-e-tron-2/
