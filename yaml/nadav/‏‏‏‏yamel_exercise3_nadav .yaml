@@ -1,0 +1,38 @@
+ingredients:
+  base: &base
+    - 2 cups of broken lotus cookies
+    - 75g melted butter
+  cream: &cream
+    - 100g white chocolate
+    - 60ml milk
+    - 25g butter
+    - a pack of instant vanilla pudding
+    - 250g mascarpone cheese
+    - 250g cream cheese
+    -
+  fluff: &fluff
+    - 65g sugar
+    - 500ml sweet cream
+
+steps:
+  first: >
+    Mix the following ingredients in the base and put the mix in the bottom of a cake pan.
+    Put it in the freezer.
+  first_ing:
+  <<: *base
+
+  second: >
+    Heat the following ingredients (except the cheeses) in a pot and mix them together. Add the cheeses.
+  second_ing:
+    <<: *cream
+
+  third: >
+    Also, in a mixer, mix the sweet cream and sugar until you get a stiff fluff.
+
+  third_ing:
+    <<: *fluff
+
+  final: >
+    Finally, slowly mix the output of the second and third steps. Put the resulting mass on the cake pan,
+    over the base of crushed cookies and butter. Insert the cake to a fridge until it hardens.
+    Then heat up lotus cream and pour it over the cake, making the icing on the cake.
