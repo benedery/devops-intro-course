@@ -1,0 +1,20 @@
+bmwModel:
+  - model: Model S
+    price: 72990
+    horsePower: 340
+    linkToModel: https://www.tesla.com/models/design#overview
+
+  - model: Model 3
+    price: 34190
+    horsePower: 289
+    linkToModel: https://www.tesla.com/model3/design#overview
+
+  - model: Model X
+    price: 83190
+    horsePower: 354
+    linkToModel: https://www.tesla.com/modelx/design#overview
+
+  - model: Y
+    price: 46160
+    horsePower: 417
+    linkToModel: https://www.tesla.com/modely/design#overview
