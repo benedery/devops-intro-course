@@ -1,27 +1,27 @@
 # string
 name: Ben 
 # number 
-age: 28
+age: 21
 isPerson: true
 # array 
-food: [pizza,beer, schnitzel]
+food: [Burger ,Beer, Pizza]
 # array option 2
 friends: 
-   - name: Eli
-     age: 28
+   - name: Daniel
+     age: 21
      isPerson: true
-   - name: E-T
-     age: 101
-     isPerson: false
+   - name: Eric Cartman
+     age: 10
+     isPerson: true
 # object / map
 family:
-     asher:
+     Steve:
        kids: 4
-       age: 40
+       age: 50
        isOlder: true 
-     moran: 
-      kids: 2
-      age: 47
+     Lady: 
+      kids: 0
+      age: 8
       isOlder: false
      james:
     #  null value is also valid
