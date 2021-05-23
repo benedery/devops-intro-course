@@ -26,9 +26,13 @@ step 3: >
   put off the burner and add salt and black pepper powder to the sauce. Keep the sauce warm.
   Add the pasta over the warm sauce and toss carefully so that each piece is coated with the sauce.
 
-step 4: *salt
+step 4:
+  <<: *salt
 
-step 5: >
+step 5:
+  ingredients: null
+
+  instruction: >
   Cook for 2-3 minutes more and then serve the Red Sauce Pasta immediately.
   To make it more aromatic, you can dry roast a few basil leaves,
   crush them with some chilli flakes, oregano and add it to the dish.
