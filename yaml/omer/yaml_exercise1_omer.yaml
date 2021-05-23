@@ -1,0 +1,65 @@
+# string
+name: Omer 
+# number 
+age: 19
+isPerson: true
+# array 
+food: [Hamburger, Whiskey, Fries]
+# array option 2
+friends: 
+   - name: Yaya
+     age: 20
+     isPerson: true
+     isOlder: true
+   - name: Mikey
+     age: 16
+     isPerson: false
+     isOlder: false
+   - name: Aviya
+     age: 19
+     isPerson: true
+     isOlder: false
+   - name: Ofer
+     age: 18
+     isPerson: true
+     isOlder: false
+# object / map
+family:
+    sisters:
+     Atar:
+       kids: 3
+       age: 35
+       isOlder: true
+       dateOfBirth: 15/5/1986
+    brothers:
+     Inbar: 
+      kids: 1
+      age: 29
+      isOlder: true
+      dateOfBirth: 16/8/1991
+     Edo:
+      age: 24
+      isOlder: true
+      dateOfBirth: 28/12/1996
+    parents:
+     Sharon:
+      kids: 4
+      age: 58
+      isOlder: true
+      dateOfBirth: 20/7/1962
+     Dalit:
+      kids: 4
+      age: 58
+      isOlder: true
+      dateOfBirth: 11/2/1963
+summary: >
+    My name is Omer. I was born on October 26th 2001.
+    I live in Timrat since I was about three years old.
+    My favorite activity is cocktailing, I feel like it helps
+    me in expressing myself in the best way. I also play Pathfinder,
+    which is a roleplaying system, since 3rd grade.
+favorite_movies:
+    - Pirates of the caribbean
+    - Mivtza Safta
+    - Don't Mess With the Zohan
+    - Grimsby
