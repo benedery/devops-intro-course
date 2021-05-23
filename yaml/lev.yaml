@@ -1,20 +1,23 @@
 person:
    - name: lev
-     age: 18
-     isPerson: false
+   - age: 18
+   - isPerson: false
   friends:
-  - name: Elad
-     age: 18
-     isPerson: true
-     isOlder: true
-  - name: Noa
-     age: 18
-     isPerson: true
-     isOlder: false
-  - name: Icy
-    age: 0.25
-    isPerson: false
-    isOlder: false
+    - name: Elad
+    - age: 18
+    - isPerson: true
+    - isOlder: true
+
+    - name: Noa
+    - age: 18
+    - isPerson: true
+    - isOlder: false
+
+    - name: Icy
+    - age: 0.25
+    - isPerson: false
+    - isOlder: false
+
   movies:
     - Bojack horseman
     - Silent voice
