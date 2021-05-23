@@ -4,16 +4,16 @@ models:
     horsePower: 340
     link: https://www.bmw.co.il/he/All-Models/z-series/roadster/2018/bmw-z4-roadster-inspire.html
   - name: BMW iX3
-      price: 430430
-      horsePower: 350
-      link: https://www.bmw.co.il/he/All-Models/x-series/iX3/2020/bmw-ix3-highlights.html
+    price: 430430
+    horsePower: 350
+    link: https://www.bmw.co.il/he/All-Models/x-series/iX3/2020/bmw-ix3-highlights.html
   - name: BMW M850I XDRIVE
-      price: 894719
-      horsePower: 370
-      link: https://www.bmw.co.il/he/All-Models/m-series/m850i-gran-coupe/2019/bmw-m850i-xdrive-gran-coupe-inspire.html
+    price: 894719
+    horsePower: 370
+    link: https://www.bmw.co.il/he/All-Models/m-series/m850i-gran-coupe/2019/bmw-m850i-xdrive-gran-coupe-inspire.html
   - name: BMW X3 xDrive30e
-      price: 361219
-      horsePower: NULL
-      link: https://www.bmw.co.il/he/All-Models/x-series/X3/2019/bmw-x3-inform.html#phev
+    price: 361219
+    horsePower: NULL
+    link: https://www.bmw.co.il/he/All-Models/x-series/X3/2019/bmw-x3-inform.html#phev
 
 
