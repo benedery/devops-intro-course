@@ -1,0 +1,41 @@
+# string
+name: Etay
+# number 
+age: 28
+isPerson: true
+# array 
+food: ['GF pizza','GF beer', 'GF schnitzel']
+# array option 2
+friends: 
+   - name: Eli
+     age: 28
+     isPerson: true
+   - name: E-T
+     age: 101
+     isPerson: false
+# object / map
+family:
+     Alon:
+       kids: 0.5
+       age: 29
+       isOlder: true 
+     Adi:
+      kids: 0
+      age: 25
+      isOlder: true
+     Ima:
+       kids: 3
+       age: 54
+       isOlder: true
+     papa:
+       kids: 3
+       age: 60
+       isOlder: true
+favorite_movies:
+  - shrek
+  - shrek 2
+  - shrek 3
+summary:
+  hello, my name is Etay and i like to sing metalcore songs
+  play videogames, get drunk with freind and party
+
