@@ -1,0 +1,11 @@
+brand:  "KAMAZ"
+  model: "KAMAZ 43118-A5"
+    - price:  63500
+    - horsePower: 300
+    - linkToModel:  "http://www.autoleader.eu/en/ad/view/id/53"
+
+  model:  " Trucks Kamaz 6520 728 11.7L Diesel Manual "
+    - price:  65500
+    - horsePower:  235
+    - linkToModel:  "https://www.transautomobile.com/en/kamaz-6520-728-tipper-africa/1524"
+
