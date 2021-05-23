@@ -1,0 +1,33 @@
+#Yes, this is my first branch ever, and it is very cool and special :))))
+#And here is my Yaml Code :)))))))))))))
+
+ name: Lior
+ # number 
+ age: 25
+ isPerson: true
+ # Summary:
+ summary: I am a very cool hombre and I like to drink white Monsters 
+ # Food
+ food: ["Chicken Liver", "Corn Pizza", "Guinea Pig"]
+ # Movies
+ movies: ["Scarface, "Apocalypse Now", "Cuckoos Nest"]
+ # array number 2
+ friends: 
+    - name: Lev
+      age: 18
+      isPerson: true
+      isOlder: false
+    - name: George the Turtle 
+      age: 120
+      isPerson: false
+      isOlder: true
+ # object / map
+ family:
+      Meny:
+        kids: 4
+        age: 76
+        isOlder: true 
+      Shaked: 
+       kids: 0
+       age: 17
+       isOlder: false
