@@ -1,0 +1,47 @@
+# string
+name: Shalev
+# number
+age: 19
+isPerson: true
+# array
+food: [pizza,beer, schnitzel]
+# array option 2
+friends:
+   - name: Eli
+     age: 28
+     isPerson: true
+     isOlder: false
+   - name: E-T
+     age: 101
+     isPerson: false
+     isOlder: true
+# object / map
+family:
+  parents:
+    avraham:
+      kids: 2
+      age: 49
+      isOlder: true
+      dateOfBirth: 21/1/1971
+
+    vivian:
+      kids: 2
+      age: 47
+      isOlder: true
+      dateOfBirth: 12/6/1973
+
+  sisters:
+     or:
+       kids: null
+       age: 12
+       isOlder: false
+       dateOfBirth: 27/10/2008
+
+summary: >
+  this is my lovely and long
+  summary
+
+favorite_movies:
+  - ET
+  - friends
+  - 'how I met your mother'
