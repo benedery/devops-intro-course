@@ -21,7 +21,7 @@ family:
        kids: 4
        age: 50
        isOlder: true
-       dateOfBirth: null
+       dateOfBirth: someday
      Lady: 
       kids: 0
       age: 8
