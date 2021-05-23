@@ -1,0 +1,25 @@
+models:
+  - model: Audi A8
+    price: 840220
+    horsePower: 340
+    linkToModel: https://www.audi.co.il/models/a8/audi-a8/#manual_icon
+
+  - model: Audi R8
+    price: 1532780
+    horsePower: 540
+    linkToModel: https://www.audi.co.il/models/r8/r8/#pricing_icon
+
+  - model: Audi A1
+    price: 153500
+    horsePower: 115
+    linkToModel: https://www.audi.co.il/models/a1/a1-sportback/#manual_icon
+
+  - model: Audi RS 7
+    price: 1072000
+    horsePower: 600
+    linkToModel: https://www.audi.co.il/models/a7/rs7/#manual_icon
+
+  - model: Audi RS 5
+    price: 746000
+    horsePower: 450
+    linkToModel: https://www.audi.co.il/models/a5/rs5-coupe/
