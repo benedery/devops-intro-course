@@ -1,12 +1,11 @@
-ingrid: &ing
+ingrid:
   ing 1: &ing1 rice
   ing 2: &ing2 water
   ing 3: &ing3 salt
 
-<<: *ing
 step 1:
-  howTo: <
-  Rinse the rice.
+  howTo: >
+    Rinse the rice.
   ing: *ing1 *ing2
 step 2:
   howTo: <
@@ -14,11 +13,11 @@ step 2:
   ing: *ing1 *ing2
 step 3:
   howTo: <
-  Bring the water to a boil. Once it's boiling, add a big pinch of salt.
+    Bring the water to a boil. Once it's boiling, add a big pinch of salt.
   ing: *ing2 *ing3
 step 4:
   howTo: <
-  Maintain a simmer. Reduce heat to low, cover the pot with a tight fitting lid, and maintain a gentle simmer.
+    Maintain a simmer. Reduce heat to low, cover the pot with a tight fitting lid, and maintain a gentle simmer.
   ing:  *ing2 *ing3
 step 5:
   howTo: <
@@ -30,4 +29,3 @@ step 6:
 step 7:
   howTo: <
     Fluff the rice with a fork.
- 
