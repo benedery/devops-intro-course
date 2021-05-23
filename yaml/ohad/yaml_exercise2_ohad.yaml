@@ -1,0 +1,21 @@
+models:
+  BMW-1-SERIES:
+    name: "BMW 1-SERIES"
+    price: 199900
+    horsePower: 3.5
+    linkToModel: "https://www.bmw.co.il/he/All-Models/1-series/5-door/2019/bmw-1-series-inspire.html" 
+  BMW-2-SERIES:
+    name: "BMW 2-SERIES"
+    price: 245500
+    horsePower: 4
+    linkToModel: "https://www.bmw.co.il/he/All-Models/2-series/coupe/2017/at-a-glance.html"
+  BMW-3-SERIES:
+    name: "BMW 3-SERIES"
+    price: 255000
+    horsePower: 4.5
+    linkToModel: "https://www.bmw.co.il/he/All-Models/3-series/sedan/2018/bmw-3-series-sedan-inspire.html"
+  BMW-4-SERIES:
+    name: "BMW 41-SERIES"
+    price: 425900
+    horsePower: 5.5
+    linkToModel: "https://www.bmw.co.il/he/All-Models/4-series/coupe/2020/bmw-34-series-coupe-highlights.html"
