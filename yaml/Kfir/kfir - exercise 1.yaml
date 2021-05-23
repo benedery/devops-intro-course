@@ -1,0 +1,42 @@
+# string
+name: Kfir
+# number 
+age: 18
+isPerson: true
+# array 
+food: [pizza,beer, schnitzel]
+# array option 2
+friends: 
+   - name: Eli
+     age: 28
+     isPerson: true
+   - name: E-T
+     age: 101
+     isPerson: false
+# object / map
+family:
+     parents:
+       aba:
+         kids: 2
+         age: 51
+         isOlder: true
+         dateOfBirt: "12/07/1969"
+       ima:
+         kids: 2
+         age: 49
+         isOlder: true
+         dateOfBirth: "26/02/1972"
+     brothers:
+     sisters:
+       shahaf:
+         kids: 0
+         age: 22
+         isOlder: true
+         dateOfBirth: "12/03/1999"
+
+Summary:
+  hello my name is kfir and i like ligma.>I also play DND.
+movies:
+  - deadpool 1
+  - deadpool 2
+  - deadpool 3
