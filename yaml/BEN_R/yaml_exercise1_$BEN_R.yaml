@@ -10,9 +10,11 @@ friends:
    - name: Daniel
      age: 21
      isPerson: true
+     isOlder: true
    - name: Eric Cartman
      age: 10
      isPerson: true
+     isOlder: false
 # object / map
 family:
      Steve:
@@ -25,5 +27,7 @@ family:
       age: 8
       isOlder: false
       dateOfBirth: null
-summary: im Ben, hello, hello 
+summary: >
+  Your long
+  string here.
 movies: [Borat ,Bruno, Pineapple Express]
