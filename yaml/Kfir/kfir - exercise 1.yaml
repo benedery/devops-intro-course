@@ -15,19 +15,25 @@ friends:
      isPerson: false
 # object / map
 family:
-     Shahaf:
-       kids: 0
-       age: 22
-       isOlder: true 
-     Aba:
-       kids: 2
-       age: 51
-       isOlder: true
-       isSote: true
-     Ema:
-       kids: 2
-       age: 49
-       isOlder: true
+     parents:
+       aba:
+         kids: 2
+         age: 51
+         isOlder: true
+         dateOfBirt: "12/07/1969"
+       ima:
+         kids: 2
+         age: 49
+         isOlder: true
+         dateOfBirth: "26/02/1972"
+     brothers:
+     sisters:
+       shahaf:
+         kids: 0
+         age: 22
+         isOlder: true
+         dateOfBirth: "12/03/1999"
+
 Summary:
   hello my name is kfir and i like ligma.>I also play DND.
 movies:
