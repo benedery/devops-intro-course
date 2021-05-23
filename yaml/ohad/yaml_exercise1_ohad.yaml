@@ -1,0 +1,40 @@
+# string
+name: ohad 
+# number 
+age: 18
+isPerson: true
+# array 
+food: [hanburger,water,soda]
+# array option 2
+friends: 
+   - name: roei
+     age: 19
+     isPerson: true
+     isOlder: true
+   - name: miri
+     age: 18
+     isPerson: true
+     isOlder: false
+# object / map
+family:
+     parents:
+       david:
+         kids: 4
+         age: 65
+         isOlder: true 
+         dateOfBirth: "16/07"
+       mali: 
+        kids: 4
+        age: 57
+        isOlder: true
+        dateOfBirth: "15/05"
+       brothers:
+         yuval:
+    #  null value is also valid
+           kids: null
+           age: 16
+           isOlder: false
+           dateOfBirth: "22/10"
+       sisters: null
+summary: " הצלחה לא מקבלים, משאילים אותה כל יום מחדש (זה המוטו שלי אבל המשפט לא )" 
+favorite_movies: [The good the bad and the ugly,Titanic]
