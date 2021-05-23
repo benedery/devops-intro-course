@@ -1,0 +1,47 @@
+# string
+name: Noa
+# number
+age: 18
+isPerson: true
+# array
+food: [ptiber ,anshur, schnitzel]
+# array option 2
+friends:
+   - name: lev
+     age: 18
+     isPerson: false
+     isOlder: true
+   - name: Nadav
+     age: 40
+     isPerson: true
+     isOlder: true
+# object / map
+family:
+    parents:
+      ima:
+        kids: 3
+        age: 56
+        isOlder: true
+        dateOfBirth: 3.3.1965
+      aba:
+        kids: 3
+        age: 60
+        isOlder: true
+        dateOfBirth: 7.9.1960
+    brothers:
+      itay:
+        kids: 0
+        age: 27
+        isOlder: true
+        dateOfBirth: 4.8.1993
+      michael:
+        kids: 0
+        age: 30
+        isOlder: true
+        dateOfBirth: 10.6.1990
+summary: >- my name is noa,
+  i love playing the piano and doing gymnastics.
+favMovies:
+  - i dont like movies
+  - i hate movies
+  - no movie
