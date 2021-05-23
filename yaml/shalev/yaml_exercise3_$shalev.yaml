@@ -1,0 +1,43 @@
+step 1:
+  Ingredients:
+    - 4 cloves garlic
+    - 2 red chilli
+    - 3 cup water
+    - 225 gm pasta penne
+    - 1/2 tablespoon extra virgin olive oil
+
+  instruction: >
+    Heat oil in a pan over medium flame,
+    add minced garlic along with chopped red chilli and red chilli flakes,
+    Stir and saute for 2 minutes.
+    Take another pan, pour the water and bring it to a boil.
+    Then, add pasta to the boiling water along with some salt and 1/2 tbsp oil.
+    Cook the pasta for a few minutes. When it is cooked through,
+    drain the extra water and transfer the pasta to another bowl.
+
+step 2: &salt
+  Ingredients: salt
+  instruction: add a kurt of salt
+
+step 3:
+  ingredients: null
+
+  instruction: >
+    Now, heat the olive oil and add the peeled (or pureed) tomatoes, basil and parsley to the pan.
+    Mix all the ingredients well and let it simmer for 10 minutes until the sauce starts to thicken.
+    When the sauce starts gaining consistency,
+    put off the burner and add salt and black pepper powder to the sauce. Keep the sauce warm.
+    Add the pasta over the warm sauce and toss carefully so that each piece is coated with the sauce.
+
+step 4:
+  <<: *salt
+
+step 5:
+  ingredients: null
+
+  instruction: >
+    Cook for 2-3 minutes more and then serve the Red Sauce Pasta immediately.
+    To make it more aromatic, you can dry roast a few basil leaves,
+    crush them with some chilli flakes, oregano and add it to the dish.
+    This herb fusion will make your pasta even more delectable.
+    Serve it with garlic bread and relish this delicious pasta.
