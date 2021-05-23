@@ -1,8 +1,3 @@
-model: string
-price: number
-horsePower: number
-linkToModel: string
-
 bmwModel:
   - model: Model S
     price: 72990
