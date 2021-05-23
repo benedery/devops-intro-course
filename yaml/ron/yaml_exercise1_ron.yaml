@@ -11,19 +11,12 @@ friends:
      age: 20
      isPerson: false
      isOlder: true
-
-# object / map
-family:
-  brothers:
-    ron:
-      kids: null
-      age: 19
-      isOlder: null
-      dateOfBirth: 31/3/2002
-      summery: >
+summery: >
         I dont know what to write so I write some bullshit
         p.s kendrick lamar is the goat
-      series: [the wire,sopranos,avater]
+series: [the wire,sopranos,avater]
+# object / map
+family:
   sisters:
     rosa:
       kids: null
