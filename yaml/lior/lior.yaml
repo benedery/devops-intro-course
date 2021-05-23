@@ -6,7 +6,8 @@
  age: 25
  isPerson: true
  # Summary:
- summary: I am a very cool hombre and I like to drink white Monsters 
+ summary: 'I am a very cool hombre and I like to drink white Monsters \n
+   And this is a new line ' 
  # Food
  food: ["Chicken Liver", "Corn Pizza", "Guinea Pig"]
  # Movies
@@ -24,10 +25,12 @@
  # object / map
  family:
       Meny:
-        kids: 4
-        age: 76
-        isOlder: true 
+       kids: 4
+       age: 76
+       isOlder: true
+       dateOfBirth: 30/8/45 
       Shaked: 
        kids: 0
        age: 17
        isOlder: false
+       dateOfBirth: 08/10/02
