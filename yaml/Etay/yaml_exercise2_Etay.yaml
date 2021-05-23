@@ -1,0 +1,18 @@
+Tesla:
+  models:
+    model S:
+      price: 113,000$
+      horsepower: 367
+      link: https://www.tesla.com/models/design#overview
+    model 3:
+      price: 51,190$
+        horsepower: 280
+        link: https://www.tesla.com/model3/design#overview
+    model X:
+      price: 113,190$
+        horsepower: 400
+        link: https://www.tesla.com/modelx/design#overview
+    model Y:
+      price: 55,190$
+        horsepower: 330
+        link: https://www.tesla.com/modely/design#overview
