@@ -1,0 +1,24 @@
+default1: &dough_ing
+  ing:
+    egg: 2
+    sugar: 1
+    Oil: 0.75
+    water: 1.5
+    Self-raising flour: 2
+    knead: true
+default2: &dough_step
+   stp:
+     step1: לשים 2 ביצים גדולות
+     step2: לשים כוס סוכר
+     step3: לשים 3/4 כוס שמן 
+     step4: לשים 2 כוסות קמח תופח
+     step5: ללוש את הבצק
+Pie:
+  ing:
+    << : *dough_ing
+    oven: true
+  stp:
+    <<: *dough_step
+    step5: לקחת את הבצק ולשים בתנור
+    
+
