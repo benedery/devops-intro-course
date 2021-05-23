@@ -18,27 +18,27 @@ friends:
 # object / map
 family:
       sisters:
-       gaya:
-         kids: null
-         age: 18
-         isOlder: null
-         dateOfBirth: 9.10.2002
-       noga:
-        kids: null
-        age: 14 but acts like a 2 yr old
-        isOlder: false
-        dateOfBirth: 18.4.2007
-       hila:
-         kids: null
-         age: 14 but acts like a 3 yr old
-         isOlder: false
-         dateOfBirth: 18.4.2007
+        gaya:
+          kids: null
+          age: 18
+          isOlder: null
+          dateOfBirth: 9.10.2002
+        noga:
+          kids: null
+          age: 14 but acts like a 2 yr old
+          isOlder: false
+          dateOfBirth: 18.4.2007
+        hila:
+          kids: null
+          age: 14 but acts like a 3 yr old
+          isOlder: false
+          dateOfBirth: 18.4.2007
       parents:
-       ziv:
-         kids: 4
-         age: 51
-         isOlder: true
-         dateOfBirth: 3.10.1969
+        ziv:
+          kids: 4
+          age: 51
+          isOlder: true
+          dateOfBirth: 3.10.1969
        carmit:
          kids: 4
          age: 49
