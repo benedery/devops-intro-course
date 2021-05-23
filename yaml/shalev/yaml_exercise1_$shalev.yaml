@@ -37,7 +37,9 @@ family:
        isOlder: false
        dateOfBirth: 27/10/2008
 
-summary: 'this is my lovely summary'
+summary: >-
+  this is my lovely and long
+  summary
 
 favorite_movies:
   - ET
