@@ -1,0 +1,43 @@
+# string
+name: Ron
+# number
+age: 19
+isPerson: true
+# array
+food: [pizza,beer, schnitzel]
+# array option 2
+friends:
+   - name: Gal
+     age: 20
+     isPerson: false
+     isOlder: true
+summery: >
+        I dont know what to write so I write some bullshit
+        p.s kendrick lamar is the goat
+series: [the wire,sopranos,avater]
+# object / map
+family:
+  sisters:
+    rosa:
+      kids: null
+      age: 28
+      isOlder: true
+      dateOfBirth: 14/7/1992
+    michal:
+      kids: null
+      age: 28
+      isOlder: true
+      dateOfBirth: 14/7/1992
+  parents:
+    Inna:
+      kids: 3
+      age: 52
+      isOlder: true
+      dateOfBirth: 3/2/1992
+    Alex:
+      kids: 3
+      age: 56
+      isOlder: true
+      dateOfBirth: 7/4/1965
+
+
