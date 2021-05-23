@@ -1,0 +1,20 @@
+Model S:
+  model: S
+  price: 79990
+  horsePower: 1020
+  linkToModel: https://www.tesla.com/models
+Model 3:
+  model: 3
+  price: 48990
+  horsePower: 480
+  linkToModel: https://www.tesla.com/model3
+Model X:
+  model: X
+  price: 89990
+  horsePower: 1020
+  linkToModel: https://www.tesla.com/modelx
+Model Y:
+  model: Y
+  price: 51990
+  horsePower: 456
+  linkToModel: https://www.tesla.com/modely
