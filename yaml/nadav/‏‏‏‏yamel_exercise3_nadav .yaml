@@ -2,6 +2,7 @@ ingredients:
   base: &base
     - 2 cups of broken lotus cookies
     - 75g melted butter
+    
   cream: &cream
     - 100g white chocolate
     - 60ml milk
@@ -9,7 +10,7 @@ ingredients:
     - a pack of instant vanilla pudding
     - 250g mascarpone cheese
     - 250g cream cheese
-    -
+   
   fluff: &fluff
     - 65g sugar
     - 500ml sweet cream
@@ -19,7 +20,7 @@ steps:
     Mix the following ingredients in the base and put the mix in the bottom of a cake pan.
     Put it in the freezer.
   first_ing:
-  <<: *base
+    <<: *base
 
   second: >
     Heat the following ingredients (except the cheeses) in a pot and mix them together. Add the cheeses.
