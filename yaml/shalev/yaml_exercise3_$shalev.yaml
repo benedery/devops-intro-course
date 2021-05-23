@@ -1,4 +1,12 @@
-step 1: >
+step 1:
+  Ingredients:
+    - 4 cloves garlic
+    - 2 red chilli
+    - 3 cup water
+    - 225 gm pasta penne
+    - 1/2 tablespoon extra virgin olive oil
+
+  instruction: >
   Heat oil in a pan over medium flame,
   add minced garlic along with chopped red chilli and red chilli flakes,
   Stir and saute for 2 minutes.
@@ -7,7 +15,9 @@ step 1: >
   Cook the pasta for a few minutes. When it is cooked through,
   drain the extra water and transfer the pasta to another bowl.
 
-step 2: &salt add a kurt of salt
+step 2: &salt
+  Ingredients: salt
+  instruction: add a kurt of salt
 
 step 3: >
   Now, heat the olive oil and add the peeled (or pureed) tomatoes, basil and parsley to the pan.
