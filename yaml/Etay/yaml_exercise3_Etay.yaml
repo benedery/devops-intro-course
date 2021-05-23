@@ -13,24 +13,21 @@ gluten free schnitzel recipe:
 
   step 1:
     ingredients:
-      *ing1
-      *ing2
+      [*ing1, *ing2]
     what_to_do: >
       Place the corn chips and rice flakes in a food processor and process until fine crumbs
       form. Combine the crumbs with the parmesan and parsley in a medium shallow bowl
 
   step 2:
     ingredients:
-      *ing3
-      *ing4
+      [*ing3, *ing4]
     what_to_do: >
       Place a chicken fillet between 2 pieces of plastic wrap. Use a meat mallet or rolling pin
       to gently pound the chicken to 2cm thickness. Repeat with the remaining chicken.
 
   step 3:
     ingredients:
-      *ing5
-      *ing6
+      [*ing5, *ing6]
     what_to_do: >
       Whisk the egg and milk in a medium bowl until well combined. Place the flour on a
       plate and season. Coat each piece of chicken in flour and shake off excess. Dip in the
@@ -39,9 +36,7 @@ gluten free schnitzel recipe:
 
   step 4:
     ingredients:
-      *ing7
-      *ing8
-      *ing9
+      [*ing7, *ing8, *ing9]
     what_to_do: >
       Heat half the oil in a large frying pan over medium heat. Cook half the chicken for 3
       mins each side or until golden brown and cooked through. Transfer to a plate lined\
