@@ -1,0 +1,46 @@
+gluten free schnitzel recipe:
+
+  ingredients:
+    ing1: &ing1 gluten-free corn chips
+    ing2: &ing2 cup (100g)rice flakes
+    ing3: &ing3 1/3 cup (25g) finely
+    ing4: &ing4 2 tablespoons flat-leaf parsley, coarsely chopped
+    ing5: &ing5 4 x 180g Coles Australian RSPCA Approved Chicken Breast Fillets
+    ing6: &ing6 1 Coles Australian Free Range Egg, lightly whisked
+    ing7: &ing7 1/4 cup (60ml) milk
+    ing8: &ing8 1/2 cup (65g) gluten-free plain flour
+    ing9: &ing9 1/3 cup (80ml) olive oil
+
+  step 1:
+    ingredients:
+      [*ing1, *ing2]
+    what_to_do: >
+      Place the corn chips and rice flakes in a food processor and process until fine crumbs
+      form. Combine the crumbs with the parmesan and parsley in a medium shallow bowl
+
+  step 2:
+    ingredients:
+      [*ing3, *ing4]
+    what_to_do: >
+      Place a chicken fillet between 2 pieces of plastic wrap. Use a meat mallet or rolling pin
+      to gently pound the chicken to 2cm thickness. Repeat with the remaining chicken.
+
+  step 3:
+    ingredients:
+      [*ing5, *ing6]
+    what_to_do: >
+      Whisk the egg and milk in a medium bowl until well combined. Place the flour on a
+      plate and season. Coat each piece of chicken in flour and shake off excess. Dip in the
+      egg mixture, then in the crumb mixture to coat. Place on a plate and cover with plastic
+      wrap. Place in the fridge for 15 mins to set.
+
+  step 4:
+    ingredients:
+      [*ing7, *ing8, *ing9]
+    what_to_do: >
+      Heat half the oil in a large frying pan over medium heat. Cook half the chicken for 3
+      mins each side or until golden brown and cooked through. Transfer to a plate lined\
+      with paper towel. Repeat with the remaining oil and chicken.
+
+
+
