@@ -1,7 +1,7 @@
 # string
-name: Ben
+name: Shalev
 # number
-age: 28
+age: 19
 isPerson: true
 # array
 food: [pizza,beer, schnitzel]
@@ -29,7 +29,6 @@ family:
       age: 47
       isOlder: true
       dateOfBirth: 12/6/1973
-
 
   sisters:
      or:
