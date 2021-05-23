@@ -1,4 +1,4 @@
-&wash_ingredients take ingredients and wash them!
+some_key: &wash_ingredients take ingredients and wash them!
 hamburger_ingredients:
  - 1 egg
  - ½ teaspoon salt
