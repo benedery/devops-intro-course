@@ -1,0 +1,55 @@
+# string
+name: Tsuk
+# number
+age: 18.5
+isPerson: true
+# array
+food: [pizza,hamburger, steak]
+# array option 2
+friends:
+   - name: darkness
+     age: old
+     isPerson: false
+     isOlder: true
+   - name: nadav
+     age: as old as the universe
+     isPerson: true
+     isOlder: true
+# object / map
+family:
+      sisters:
+        gaya:
+          kids: null
+          age: 18
+          isOlder: null
+          dateOfBirth: 9.10.2002
+        noga:
+          kids: null
+          age: 14 but acts like a 2 yr old
+          isOlder: false
+          dateOfBirth: 18.4.2007
+        hila:
+          kids: null
+          age: 14 but acts like a 3 yr old
+          isOlder: false
+          dateOfBirth: 18.4.2007
+      parents:
+        ziv:
+          kids: 4
+          age: 51
+          isOlder: true
+          dateOfBirth: 3.10.1969
+       carmit:
+         kids: 4
+         age: 49
+         isOlder: true
+         dateOfBirth: 4.11.1971
+summary: >
+  my name is Tsuk Riklin im 18 years old from moshav hatsav.
+  I enjoy solving rubiks cube a lot, play video games and play with a butterfly knife.
+  another thing i like a lot is U ;).
+
+favorite_movies:
+  - lotr
+  - the hobbit
+  - dont mess with the zohan
