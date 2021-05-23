@@ -1,0 +1,29 @@
+# string
+name: Ben 
+# number 
+age: 21
+isPerson: true
+# array 
+food: [Burger ,Beer, Pizza]
+# array option 2
+friends: 
+   - name: Daniel
+     age: 21
+     isPerson: true
+   - name: Eric Cartman
+     age: 10
+     isPerson: true
+# object / map
+family:
+     Steve:
+       kids: 4
+       age: 50
+       isOlder: true
+       dateOfBirth: null
+     Lady: 
+      kids: 0
+      age: 8
+      isOlder: false
+      dateOfBirth: null
+summary: im Ben, hello, hello 
+movies: [Borat ,Bruno, Pineapple Express]
