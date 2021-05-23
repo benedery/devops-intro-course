@@ -1,0 +1,13 @@
+Models:
+  - model: Yaris
+    price: 118420 
+    horsePower: 112
+    linkToModel: https://www.toyota.co.il/new-cars/yaris/
+  - model: Corolla
+    price: 134701 
+    horsePower: 132
+    linkToModel: https://www.toyota.co.il/new-cars/corolla-sedan/
+  - model: Aygo X-PLAY
+    price:  76126 
+    horsePower: 68
+    linkToModel: https://www.toyota.co.il/new-cars/aygo/
