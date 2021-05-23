@@ -4,7 +4,7 @@ default1: &dough_ing
     sugar: 1
     Oil: 0.75
     water: 1.5
-    Self-raising flour: 2
+    Self-raising-flour: 2
     knead: true
 default2: &dough_step
    stp:
