@@ -129,18 +129,21 @@ Make sure this job saves the meta/author.txt file as an artifact.
 
 1. Add cache to your pipeline - use ${COMMIT_REF_SLUG} as key.
 
-2. Not every job in our pipeline need the dependencies (no need for cache) - find a way disable cache inside jobs that does not need it.
+2. Not every job in our pipeline need the dependencies (no need for cache) - disable cache inside jobs that does not need it. (you can cancel using cache:{})
 
 3. Check the time of pipeline - did you see big difference ?
 
-4. The default cache behavior in Gitlab CI is to download the files at the start of the job execution (pull), and to re-upload them at the end (push). This allows any changes made by the job to be persisted for future runs (known as the pull-push cache policy).  
-   Gitlab offers the possibility of defining how a job should work with cache by setting a policy. So if we want to skip uploading cache file, we can use the setting in the cache configuration.
+### Exercise 7
 
-5. In Gitlab CI it is possible to create jobs that are only executed when a specific condition is fulfilled. For example if we want to run a job only when the pipeline is triggered by a schedule, we can configure it with:
-   ```
-    only:
-   - schedules
-   ```
+The default cache behavior in Gitlab CI is to download the files at the start of the job execution (pull), and to re-upload them at the end (push). This allows any changes made by the job to be persisted for future runs (known as the pull-push cache policy).  
+ Gitlab offers the possibility of defining how a job should work with cache by setting a policy. So if we want to skip uploading cache file, we can use the setting in the cache configuration.
+
+In Gitlab CI it is possible to create jobs that are only executed when a specific condition is fulfilled. For example if we want to run a job only when the pipeline is triggered by a schedule, we can configure it with:
+
+```
+ only:
+- schedules
+```
 
 The same goes the other way around. If you don't want to run a job when the pipeline is triggered by a scheduled run, simply add to the respective jobs:
 
@@ -149,7 +152,7 @@ except:
     - schedules
 ```
 
-6. Let's create a job that runs only once per day and updates the cache. The job will not need to download the caches (pull). It only needs to create new caches (push).
+Let's create a job that runs only once per day and updates the cache. The job will not need to download the caches (pull). It only needs to create new caches (push).
 
 For this do the following:
 
