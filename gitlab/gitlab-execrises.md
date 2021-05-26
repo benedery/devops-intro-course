@@ -127,11 +127,13 @@ Make sure this job saves the meta/author.txt file as an artifact.
 
 ### Exercise 6
 
-1. Add cache to your pipeline - use ${COMMIT_REF_SLUG} as key.
+1. Set Your domain as a variable, and change scripts to use the new variable.
 
-2. Not every job in our pipeline need the dependencies (no need for cache) - disable cache inside jobs that does not need it. (you can cancel using cache:{})
+2. Add cache to your pipeline - use ${COMMIT_REF_SLUG} as key.
 
-3. Check the time of pipeline - did you see big difference ?
+3. Not every job in our pipeline need the dependencies (no need for cache) - disable cache inside jobs that does not need it. (you can cancel using cache:{})
+
+4. Check the time of pipeline - did you see big difference ?
 
 ### Exercise 7
 
@@ -175,3 +177,23 @@ For this do the following:
 - manually the pipeline (the "update cache" job should not appear in the pipeline)
 
 - Send me in slack the yml file to check if you did all ok.
+
+### Exercise 8
+
+We are going to create 2 environments - Staging and Production.
+
+For this do the following:
+
+- change deploy job to "deploy to production"
+
+- add an environment object to job (name should be "production" and url:$yourDomain)
+
+- create new job called "deploy to staging" (should be similar to "deploy to production" job)
+
+- add an environment object to job (name should be "staging" and url should be other domain name - different from the production url )
+
+- set your new "staging" domain as a new variable and use it.
+
+- on the left sidebar in gitlab go to Operations => Environments
+
+- check if production and staging environments are working !
