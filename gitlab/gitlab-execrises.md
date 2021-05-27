@@ -129,7 +129,7 @@ Make sure this job saves the meta/author.txt file as an artifact.
 
 1. Set Your domain as a variable, and change scripts to use the new variable.
 
-2. Add cache to your pipeline - use ${COMMIT_REF_SLUG} as key.
+2. Add cache to your pipeline - use ${CI_COMMIT_REF_SLUG} as key.
 
 3. Not every job in our pipeline need the dependencies (no need for cache) - disable cache inside jobs that does not need it. (you can cancel using cache:{})
 
