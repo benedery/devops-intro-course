@@ -1,0 +1,36 @@
+recipe:
+  ingredients:
+    ingr1: &i1
+      name: large eggs
+      amount: 2
+      measure: units
+    ingr2: &i2
+      name: brown sugar
+      amount: 1
+      measure: cup
+    ingr3: &i3
+      name: dark chocolate
+      amount: 170
+      measure: grams
+    ingr4: &i4
+      name: coca powder
+      amount: 1/4
+      measure: cups
+
+
+  step 1:
+    step: pre heat the oven to 180 degrees
+    ingredients: null
+  step 2:
+    step: take the ingredients and mix them
+     ingredients:
+       - *i1
+       - *i2
+       - *i3
+       - *i4
+  step 3:
+    step: bake for 40 minutes
+    ingredinets: null
+
+
+
